@@ -5,6 +5,12 @@
       "text": "Doctor",
       "day": "Feb 5th at 2:32",
       "reminder": true
+    },
+    {
+      "text": "Add a Task",
+      "day": "",
+      "reminder": true,
+      "id": 2
     }
   ]
 }
