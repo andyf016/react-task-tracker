@@ -2,19 +2,21 @@ import React from 'react'
 
 const AddTask = () => {
     return (
-        <form classname='add-form'>
+        <form className='add-form'>
             <div className='form-control'>
                 <label>Task</label>
                 <input type='text' placeholder='Add Task'/>
             </div>
-            <div className='form-control'>
+            <div className='form control form-control-check'>
                 <label>Day and Time</label>
                 <input type='text' placeholder='Add Day and Time'/>
             </div>
             <div className='form-control'>
                 <label>Set Reminder</label>
-                <input type='checkbox' placeholder='Add Task'/>
+                <input type='checkbox' />
             </div>
+
+            <input type='submit' value='Save Task' className='btn btn-block' />
         </form>
     )
 }
